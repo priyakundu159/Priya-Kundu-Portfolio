@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/python--v1.png"
+    },
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/color/48/pandas.png"
+    },
+    {
+        "name": "Numpy",
+        "icon": "https://img.icons8.com/color/48/numpy.png"
+    },
+    {
+        "name": "Anaconda",
+        "icon": "https://img.icons8.com/fluency/48/anaconda--v2.png"
+    },
+    {
+        "name": "SQL",
+        "icon": "https://img.icons8.com/color/48/sql.png"
+    },
+    {
+        "name": "VS Code",
+        "icon": "https://img.icons8.com/color/48/visual-studio-code-2019.png"
+    },   
+    {
+        "name": "Rest API",
+        "icon": "https://img.icons8.com/nolan/64/api-settings.png"
+    },
+    {
+        "name": "Github",
+        "icon": "https://img.icons8.com/ios-filled/50/github.png"
+    },
+    {
+        "name": "Pytorch",
+        "icon": "https://img.icons8.com/nolan/64/py.png"
+    },
+    {
+        "name": "Figma",
+        "icon": "https://img.icons8.com/color/48/figma--v1.png"
+    }
+    
+]
