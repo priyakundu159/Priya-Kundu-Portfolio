@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Harsh Navadiya";
+            document.title = "Portfolio | Priya Kundu";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -69,15 +69,6 @@ document.addEventListener('visibilitychange',
     });
 
 
-// <!-- typed js effect starts -->
-var typed = new Typed(".typing-text", {
-    strings: ["Data Science", "backend development", "Cloud Computing", "Machine Learning"],
-    loop: true,
-    typeSpeed: 50,
-    backSpeed: 25,
-    backDelay: 500,
-});
-// <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
     let response
@@ -109,7 +100,7 @@ function showProjects(projects) {
     let projectHTML = "";
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
-        <div class="box tilt">
+        <div class="box">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
@@ -126,12 +117,6 @@ function showProjects(projects) {
     </div>`
     });
     projectsContainer.innerHTML = projectHTML;
-
-    // <!-- tilt js effect starts -->
-    VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        max: 15,
-    });
-    // <!-- tilt js effect ends -->
 
     /* ===== SCROLL REVEAL ANIMATION ===== */
     const srtop = ScrollReveal({
@@ -154,11 +139,7 @@ fetchData("projects").then(data => {
     showProjects(data);
 });
 
-// <!-- tilt js effect starts -->
-VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 15,
-});
-// <!-- tilt js effect ends -->
+
 
 
 // pre loader start
