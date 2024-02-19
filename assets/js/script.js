@@ -133,8 +133,21 @@ fetchData("projects").then(data => {
     showProjects(data);
 });
 
+function showDescription(id) {
+    var dropdownContent = document.getElementById(id + "DropdownContent");
+    dropdownContent.style.display = "block";
+    setTimeout(function () {
+      dropdownContent.classList.add("show");
+    }, 10);
+  }
 
-
+  function hideDescription(id) {
+    var dropdownContent = document.getElementById(id + "DropdownContent");
+    dropdownContent.classList.remove("show");
+    setTimeout(function () {
+      dropdownContent.style.display = "none";
+    }, 300);
+  }
 
 // pre loader start
 // function loader() {

@@ -1035,8 +1035,39 @@ header .navbar ul li a:hover {
   font-weight: 600;
 }
 .experience .content .desc p {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
 }
+
+.experience .dropdown-btn {
+  background-color: #1B1B1B;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.experience .dropdown-content {
+  display: none;
+  background-color: #1B1B1B;
+  color: white;
+  border-radius: 6px;
+  padding: 0px 10px 10px 10px;
+  z-index: 1;
+  font-size: 1.25rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.experience .show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
 /* view all button */
 .morebtn {
   display: flex;
