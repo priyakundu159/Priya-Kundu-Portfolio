@@ -29,7 +29,7 @@
     },
     {
         "name": "Github",
-        "icon": "https://img.icons8.com/ios-filled/50/github.png"
+        "icon": "https://img.icons8.com/ios-filled/64/github.png"
     },
     {
         "name": "Pytorch",
@@ -37,7 +37,14 @@
     },
     {
         "name": "Figma",
-        "icon": "https://img.icons8.com/color/48/figma--v1.png"
+        "icon": "https://img.icons8.com/color/64/figma--v1.png"
+    },
+    {
+        "name": "MongoDb",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/64/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png"
+    },
+    {
+        "name": "Tableau",
+        "icon": "https://img.icons8.com/color/64/tableau-software.png"
     }
-    
 ]
